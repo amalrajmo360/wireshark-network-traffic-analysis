@@ -193,6 +193,85 @@ Captured ARP request and reply packets.
 
 ![ARP Details](10-arp-details.png)
 
+---
+
+# Wireshark Statistics
+
+The captured traffic was further analyzed using Wireshark's built-in statistical tools.
+
+## Statistics Reviewed
+
+- Protocol Hierarchy
+- Conversations
+- Endpoints
+- I/O Graph
+- Capture Summary
+
+These statistics provided additional insight into protocol distribution, communication endpoints, packet flow, and overall network behavior during the capture session.
+
+---
+
+# Key Learning Outcomes
+
+Through this project, I gained practical experience in:
+
+- Capturing live network traffic using Wireshark
+- Applying protocol filters for efficient packet analysis
+- Understanding DNS name resolution
+- Analyzing the TCP three-way handshake
+- Inspecting TLS handshake messages and encrypted communication
+- Examining QUIC traffic over UDP
+- Understanding ARP request and reply operations
+- Using Wireshark statistics to analyze network behavior
+- Documenting packet analysis findings in a structured technical report
+
+---
+
+# Security Insights
+
+The captured traffic demonstrates how modern network communication relies on multiple protocols working together.
+
+Key observations include:
+
+- DNS resolves domain names before communication begins.
+- TCP establishes reliable connections before data transmission.
+- TLS encrypts communication to protect confidentiality.
+- QUIC improves performance by reducing connection setup time.
+- ARP enables communication within the local network by resolving MAC addresses.
+
+Understanding these protocols is essential for network troubleshooting, incident response, malware analysis, and security monitoring.
+
+---
+
+# Conclusion
+
+This project demonstrates practical experience in capturing and analyzing live network traffic using Wireshark on Kali Linux.
+
+The analysis covered multiple network protocols, including DNS, TCP, TLS, QUIC, and ARP, along with Wireshark statistical analysis. The project strengthened practical packet analysis skills, improved understanding of protocol behavior, and reinforced core cybersecurity concepts used in SOC operations, digital forensics, and network security.
+
+---
+
+## Repository Contents
+
+- README Documentation
+- Packet Analysis Report
+- Annotated Screenshots
+- Protocol Analysis
+- Wireshark Statistics
+
+---
+
+## Future Improvements
+
+- Analyze HTTP and HTTPS traffic in greater depth
+- Perform malware traffic analysis
+- Analyze suspicious PCAP files
+- Investigate network attacks using Wireshark
+- Expand the project with Zeek and Suricata analysis
+
+---
+
+
 ## Author
 
 **Amalraj M O**
